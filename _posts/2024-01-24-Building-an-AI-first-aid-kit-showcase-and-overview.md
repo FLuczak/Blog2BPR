@@ -106,7 +106,7 @@ void Tick(float dt)
 }
 ```
 
-<img src = "/_assets/Platformer%20animation.gif"/>
+<img src = "/Images/Platformer%20animation.gif"/>
 
 How the previously created Finite State Machine works in practice- animations changing depending on the values inside the blackboard. When it comes to code, I just needed to set the previously mentioned values in the blackboard for the entire thing to work.
 
@@ -199,7 +199,7 @@ void Tick(float dt)
 }
 ```
 
-<img src = "/_assets/Demo Stealth game AI.gif"/>
+<img src = "/Images/Demo Stealth game AI.gif"/>
 
 Result of the previously created behavior tree
 
@@ -237,11 +237,11 @@ REGISTER_ACTION(IdleAction)
 ``` 
 It is important to remember that all states and actions that are serialized for the editors need to have a default constructor. All the variables one wants to initialize have to be initialized in the default constructor or declared as editor variables (that I'm going to discuss further in the post).
 
-<img src= "/_assets/SpeedrunFSM.gif">
+<img src= "/Images/SpeedrunFSM.gif">
 
 Sped up creation of the Finite State Machine from the previous example
 
-<img src= "/_assets/BTEditor.gif">
+<img src= "/Images/BTEditor.gif">
 
 Sped up creation of the Behavior Tree from the previous example
 
@@ -277,11 +277,11 @@ As of now, my solution handles fundamental types and std::strings, however, in t
 
 Debugging tools are a feature that I have not seen in a single similar module, except for the big commercial engines. My library gives the end user a possibility to preview which state a Finite State Machine is currently in, or what kind of path the Behavior Tree is currently following.
 
-<img src= "/_assets/PlatformerFSM.gif"/>
+<img src= "/Images/PlatformerFSM.gif"/>
 
 Finite State Machine debugging preview tool
 
-<img src= "/_assets/BT%20preview.gif"/>
+<img src= "/Images/BT%20preview.gif"/>
 
 Behavior Tree debugging preview
 
@@ -290,7 +290,7 @@ What makes this feature attractive as well is that it is accessible and doesn't 
 Additionally, I created a blackboard inspection tool that allows the end user to preview the data stored in a blackboard for every agent. It also has the option to preview structures that are reflected using the visit_struct library. One thing that I'd love to do with this tool is allow the user to modify the data, yet it would require some additional work that I could not fit into my deadlines.
 
 
-<img src = "/_assets/Blackboard%20preview.gif"/>
+<img src = "/Images/Blackboard%20preview.gif"/>
 
 Blackboard content debug preview for agents
 
