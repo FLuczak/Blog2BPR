@@ -2,8 +2,7 @@
  
 ## Introduction:
 
-For the last eight weeks, I have been working on a research project at Breda University of Applied Sciences regarding my favorite subject in game development- game AI. For years as a hobbyist game programmer, I used multiple AI solutions and toolkits, including the ones built into commercial game engines, popular plugins, and in-house solutions, I also experimented with different behavior selection structures: Behavior Trees, Finite State Machines, Utility AI, as well as spent a considerable amount of time researching Goal Oriented Action Planners and Hierarchical task networks. Last year at the university, I mostly worked on games in custom engines or made from scratch in C++, at this time I couldn’t find a premade solution that would be simple to use, easy to integrate into a project, that would give me flexibility, as well as the tools for debugging or editing the previously created behavioral structures. Having a need for such a tool, as well as having experience with the topic from a user's perspective, I decided to create a library that would solve the problems I had. I present to you my Finite State Machine and Behavior tree library with debugging and editor toolkit.
-
+For the last eight weeks, I have been working on a research project at Breda University of Applied Sciences regarding my favorite subject in game development- game AI. For years as a hobbyist game programmer, I used multiple AI solutions and toolkits, including the ones built into commercial game engines, popular plugins, and in-house solutions, I also experimented with different behavior selection structures: Behavior Trees, Finite State Machines, Utility AI, as well as spent a considerable amount of time researching Goal Oriented Action Planners and Hierarchical task networks. Last year at the university, I mostly worked on games in custom engines or made from scratch in C++, at this time I couldn’t find a premade solution that would be simple to use, easy to integrate into a project, that would give me flexibility, as well as the tools for debugging or editing the previously created behavioral structures. Having a need for such a tool, as well as having experience with the topic from a user's perspective, I decided to create a library that would solve the problems I had. I present to you my Finite State Machine and Behavior tree library with debugging and editor toolkit. My main goal with this blog post is to showcase my approach to creating AI APIs architecture and show my implementation of it. This text is mostly intended for people who are at least familiar with the basic premise of Behavior Selection structures and basic theory behind them.
 
 ## The features:
 ### Blackboards
@@ -216,7 +215,23 @@ bt = AI::BehaviorTree::Deserialize(serialized);
 
 ### Editor tools
 
-Visual editors are often used an-pair with Behavior Structures, not having a visual aid while working on more complex Finite State Machines and Behavior Trees was a difficult experience in the past, that's why I decided to implement rudimentary editors to help create and maintain the behavior structures. 
+Visual editors are often used an-pair with Behavior Structures, not having a visual aid while working on more complex Finite State Machines and Behavior Trees was a difficult experience in the past, as well that most of the available libraries for AI behavior selection structures do not have this functionality, that's why I decided to implement rudimentary editors to help create and maintain the behavior structures. To add our previously created states we just need to call one macro- I do it at the end of the class declaration, but it can be called anywhere in the codebase if the state or behavior is included:
+
+``` cpp
+//Registration of a state for an editor
+class TestState : public AI::State
+{
+
+}
+REGISTER_STATE(TestState)
+
+//Registering a behavior tree action
+class IdleAction : public AI::BehaviorTreeAction
+{
+}
+REGISTER_ACTION(IdleAction)
+``` 
+It is important to remember that all states and actions that are serialized for the editors need to have a default constructor. All the variables one wants to initialize have to be initialized in the default constructor or declared as editor variables (that I'm going to discuss further in the post).
 
 Sped up creation of the Finite State Machine from the previous example
 
@@ -224,13 +239,30 @@ Sped up creation of the Behavior Tree from the previous example
 
 Additionally, I added a possibility for the end user to add editor-modifiable variables that allow creating multiple behaviors with changed values or easier iteration and experimentation on actions. Declaring them inside a behavior is as easy as calling this macro:
 
+``` cpp 
+class AttackPlayerAction : public AI::BehaviorTreeAction
+{
+ public:
+ DECLARE_BEHAVIOR_EDITOR_VARIABLE(float,time);
+ ...
+}
+```
 
 The variable “time” can now be used inside the functions as a member field inside the action. It also shows inside the editor:
 
 It works exactly the same for the States:
 
+``` cpp
+class AnimationState : public AI::State
+{
+  DECLARE_STATE_EDITOR_VARIABLE(int,startIndex);
+  DECLARE_STATE_EDITOR_VARIABLE(int,startIndex);
+  DECLARE_STATE_EDITOR_VARIABLE(int,startIndex);
+  DECLARE_STATE_EDITOR_VARIABLE(int,startIndex);
+  ...
+}
+```
 
- 
 As of now, my solution handles fundamental types and std::strings, however, in the future, I'd like to implement the possibility of using serializable structs and serialized enums as the editor variables. The editors were very helpful and deemed useful while working on several different demos I prepared for the project's showcase for the university where I often had to edit or add new things in. As future points of improvements of the tool I would like to add some extra QoL features for the end user, as well as a possibility to create one’s own Decorator and Composite nodes with custom execution logic that would show up in the editor.
 
 ### Debugging tools
