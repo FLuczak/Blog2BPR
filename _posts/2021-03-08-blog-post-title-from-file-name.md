@@ -106,7 +106,9 @@ void Tick(float dt)
 }
 ```
 
-How the previously created Finite State Machine works in practice- animations changing depending on the values inside the blackboard.
+![](../_assets/Platformer%20animation.gif)
+
+How the previously created Finite State Machine works in practice- animations changing depending on the values inside the blackboard. When it comes to code, I just needed to set the previously mentioned values in the blackboard for the entire thing to work.
 
 ### Behavior trees
 
@@ -197,6 +199,7 @@ void Tick(float dt)
 }
 ```
 
+![](../_assets/Demo%20Stealth%20game%20AI.gif)
 Result of the previously created behavior tree
 
 It is also worth noting that both Finite State Machines and Behavior Trees can be serialized to and deserialized from JSON- this allows the end user to save the structures and potentially use them as assets in their engine. It is achieved by calling:
@@ -233,8 +236,10 @@ REGISTER_ACTION(IdleAction)
 ``` 
 It is important to remember that all states and actions that are serialized for the editors need to have a default constructor. All the variables one wants to initialize have to be initialized in the default constructor or declared as editor variables (that I'm going to discuss further in the post).
 
+![](../_assets/SpeedrunFSM.gif)
 Sped up creation of the Finite State Machine from the previous example
 
+![](../_assets/BTEditor.gif)
 Sped up creation of the Behavior Tree from the previous example
 
 Additionally, I added a possibility for the end user to add editor-modifiable variables that allow creating multiple behaviors with changed values or easier iteration and experimentation on actions. Declaring them inside a behavior is as easy as calling this macro:
@@ -282,5 +287,5 @@ Blackboard content debug preview for agents
 
 ## Conclusion
 
-In conclusion, I believe my tool solves most of the problems I faced during the first year of my studies, as well as problems that I or teams that I work with will face in the future regarding gameplay and game AI programming. I can say with confidence that this project could potentially create a better structure of the workflow regarding the AI topic. This has been a great learning adventure that taught me new concepts- especially regarding tools and engine programming, as well as made me a much better programmer along the way while building something that could solve many problems of like-minded developers.
+In conclusion, I believe my tool solves most of the problems I faced during the first year of my studies, as well as problems that I or teams that I work with will face in the future regarding gameplay and game AI programming. I can say with confidence that this project could potentially create a better structure of the workflow regarding the AI topic. This has been a great learning adventure that taught me new concepts- especially regarding tools and engine programming, as well as made me a much better programmer along the way while building something that could solve many problems of like-minded developers. I hope that through this post I was able to convey my approach when it comes to designing AI APIs, as well as served as an inspiration for somebody trying to work on a similar project in the future.
 
