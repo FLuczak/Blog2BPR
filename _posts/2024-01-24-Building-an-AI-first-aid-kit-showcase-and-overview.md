@@ -17,20 +17,23 @@ blackboard.SetData("Timer",15.0f);
 blackboard.SetData("Name",std::string("George"));
 ```
 
-Data can be retrieved either by value:
+Data by default is accessed by reference, yet it automatically assumes that the data is set inside the blackboard:
 
 ```cpp
-bool isTraining = blackboard.GetData<bool>("Training).value();
-float currentTimer = blackboard.GetData<float>("Timer").value();
-std::string myName = blackboard.GetData<std::string>("Name).value();
+bool& isTraining = blackboard.GetData<bool>("Training");
+float& currentTimer = blackboard.GetData<float>("Timer");
+std::string& myName = blackboard.GetData<std::string>("Name");
 ```
 
-Or by reference for faster modyfing the contents:
+Or a const pointer to data can be retrieved if the user is not sure if the data is inside the blackboard:
 
 ```cpp
-bool& isTraining = blackboard.GetReference<bool>("Training);
-float& currentTimer = blackboard.GetReference<float>("Timer");
-std::string& myName = blackboard.GetReference<std::string>("Name);
+bool*  isTraining = blackboard.TryGet<bool>("Training");
+
+if(isTraining == nullptr)return;
+
+float* timer = blackboard.TryGet<float>("Timer");
+std::string* name = blackboard.TryGet<std::string>("Name");
 ```
 
 Apart from that the user can check if an element with a given key exists if necessary:
