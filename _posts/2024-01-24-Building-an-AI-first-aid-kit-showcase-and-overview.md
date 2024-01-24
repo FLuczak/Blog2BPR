@@ -1,4 +1,4 @@
-# From research to solution: My Finite State Machine and Behavior Tree Library for C++ based engines.
+# Building an AI First aid kit- showcase and overview.
  
 ## Introduction:
 
@@ -218,7 +218,7 @@ bt = AI::BehaviorTree::Deserialize(serialized);
 
 ### Editor tools
 
-Visual editors are often used an-pair with Behavior Structures, not having a visual aid while working on more complex Finite State Machines and Behavior Trees was a difficult experience in the past, as well that most of the available libraries for AI behavior selection structures do not have this functionality, that's why I decided to implement rudimentary editors to help create and maintain the behavior structures. To add our previously created states we just need to call one macro- I do it at the end of the class declaration, but it can be called anywhere in the codebase if the state or behavior is included:
+Visual editors are often used an-pair with Behavior Structures, not having a visual aid while working on more complex Finite State Machines and Behavior Trees was a difficult experience in the past, as well that most of the available libraries for AI behavior selection structures do not have this functionality, that's why I decided to implement rudimentary editors to help create and maintain the behavior structures. The editor was made using [this helpful imgui library](https://github.com/thedmd/imgui-node-editor) To add our previously created states we just need to call one macro- I do it at the end of the class declaration, but it can be called anywhere in the codebase if the state or behavior is included:
 
 ``` cpp
 //Registration of a state for an editor
@@ -274,14 +274,17 @@ As of now, my solution handles fundamental types and std::strings, however, in t
 
 Debugging tools are a feature that I have not seen in a single similar module, except for the big commercial engines. My library gives the end user a possibility to preview which state a Finite State Machine is currently in, or what kind of path the Behavior Tree is currently following.
 
-
+![](../_assets/PlatformerFSM.gif)
 Finite State Machine debugging preview tool
 
+![](../_assets/BT%20preview.gif)
 Behavior Tree debugging preview
 
 What makes this feature attractive as well is that it is accessible and doesn't require the end user to use the debugger and breakpoints to get to the important data- it is also helpful for the less technical members of the project, who might not be proficient with debugging tools.
 
 Additionally, I created a blackboard inspection tool that allows the end user to preview the data stored in a blackboard for every agent. It also has the option to preview structures that are reflected using the visit_struct library. One thing that I'd love to do with this tool is allow the user to modify the data, yet it would require some additional work that I could not fit into my deadlines.
+
+![](../_assets/Blackboard%20preview.gif)
 
 Blackboard content debug preview for agents
 
