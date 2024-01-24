@@ -106,7 +106,7 @@ void Tick(float dt)
 }
 ```
 
-![](../_assets/Platformer%20animation.gif)
+<img src = "../_assets/Platformer%20animation.gif"/>
 
 How the previously created Finite State Machine works in practice- animations changing depending on the values inside the blackboard. When it comes to code, I just needed to set the previously mentioned values in the blackboard for the entire thing to work.
 
@@ -199,7 +199,8 @@ void Tick(float dt)
 }
 ```
 
-![](../_assets/Demo%20Stealth%20game%20AI.gif)
+<img src = "../_assets/Demo Stealth game AI.gif"/>
+
 Result of the previously created behavior tree
 
 It is also worth noting that both Finite State Machines and Behavior Trees can be serialized to and deserialized from JSON- this allows the end user to save the structures and potentially use them as assets in their engine. It is achieved by calling:
@@ -236,10 +237,12 @@ REGISTER_ACTION(IdleAction)
 ``` 
 It is important to remember that all states and actions that are serialized for the editors need to have a default constructor. All the variables one wants to initialize have to be initialized in the default constructor or declared as editor variables (that I'm going to discuss further in the post).
 
-![](../_assets/SpeedrunFSM.gif)
+<img src= "../_assets/SpeedrunFSM.gif">
+
 Sped up creation of the Finite State Machine from the previous example
 
-![](../_assets/BTEditor.gif)
+<img src= "../_assets/BTEditor.gif">
+
 Sped up creation of the Behavior Tree from the previous example
 
 Additionally, I added a possibility for the end user to add editor-modifiable variables that allow creating multiple behaviors with changed values or easier iteration and experimentation on actions. Declaring them inside a behavior is as easy as calling this macro:
@@ -274,17 +277,20 @@ As of now, my solution handles fundamental types and std::strings, however, in t
 
 Debugging tools are a feature that I have not seen in a single similar module, except for the big commercial engines. My library gives the end user a possibility to preview which state a Finite State Machine is currently in, or what kind of path the Behavior Tree is currently following.
 
-![](../_assets/PlatformerFSM.gif)
+<img src= "../_assets/PlatformerFSM.gif"/>
+
 Finite State Machine debugging preview tool
 
-![](../_assets/BT%20preview.gif)
+<img src= "../_assets/BT%20preview.gif"/>
+
 Behavior Tree debugging preview
 
 What makes this feature attractive as well is that it is accessible and doesn't require the end user to use the debugger and breakpoints to get to the important data- it is also helpful for the less technical members of the project, who might not be proficient with debugging tools.
 
 Additionally, I created a blackboard inspection tool that allows the end user to preview the data stored in a blackboard for every agent. It also has the option to preview structures that are reflected using the visit_struct library. One thing that I'd love to do with this tool is allow the user to modify the data, yet it would require some additional work that I could not fit into my deadlines.
 
-![](../_assets/Blackboard%20preview.gif)
+
+<img src = "../_assets/Blackboard%20preview.gif"/>
 
 Blackboard content debug preview for agents
 
