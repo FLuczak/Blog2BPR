@@ -1,5 +1,6 @@
 # Building an AI First aid kit- showcase and overview.
- 
+
+
 ## Introduction:
 
 For the last eight weeks, I have been working on a research project at Breda University of Applied Sciences regarding my favorite subject in game development- game AI. For years as a hobbyist game programmer, I used multiple AI solutions and toolkits, including the ones built into commercial game engines, popular plugins, and in-house solutions, I also experimented with different behavior selection structures: Behavior Trees, Finite State Machines, Utility AI, as well as spent a considerable amount of time researching Goal Oriented Action Planners and Hierarchical task networks. Last year at the university, I mostly worked on games in custom engines or made from scratch in C++. At this time, I couldn’t find a premade solution that would be simple to use and easy to integrate into a project. I was looking for a library that would give me flexibility, as well as the tools for debugging or editing the previously created behavioral structures. Having a need for such a tool, as well as having experience with the topic from a user's perspective, I decided to create a library that would solve the problems I had. I present to you my Finite State Machine and Behavior tree library with debugging and editor toolkit. My main goal with this blog post is to showcase my approach to creating AI APIs architecture and show my implementation of it. This text is mostly intended for people who are at least familiar with the basic premise of Behavior Selection structures and basic theory behind them.
@@ -64,16 +65,22 @@ It is worth to remember that the architecture I created doesn't facilitate the u
 
 After the states are defined, one can easily construct the Finite State Machine. Starting with adding the states, then specifying the transitions between them. It is worth noting that the states can be initialized with any constructor and contain any data. 
 
+Consider this example that creates an animation state machine:
+
 ``` cpp
 class AnimationState : public AI::State
 {
 public:
+    //Starting index in spritesheet of the animation
     int startIndex;
+    //Last index in spritesheet of the animation
     int endIndex;
+    //The mode in which the animation should be played
     graphics2d::SpriteAnimation::Mode mode;
+    //How long does the animation last
     float time;
 
-    AnimationState(int start,int end,graphics2d::SpriteAnimation::Mode mode,float timeToSet) : startIndex(start), endIndex(end), mode(mode), time(timeToSet)
+    AnimationState(int start,int end,graphics2d::SpriteAnimation::Mode mode,float timeToSet) : startIndex(start), endIndex(end), mode(mode)), time(timeToSet)
     {
         m_spriteAnimation =graphics2d::SpriteAnimation(startIndex, endIndex, mode, time);
     }
@@ -327,3 +334,12 @@ Blackboard content debug preview for agents
 
 In conclusion, I believe my tool solves most of the problems I faced during the first year of my studies, as well as problems that I or teams that I work with will face in the future regarding gameplay and game AI programming. I can say with confidence that this project could potentially create a better structure of the workflow regarding the AI topic. This has been a great learning adventure that taught me new concepts- especially regarding tools and engine programming, as well as made me a much better programmer along the way while building something that could solve many problems of like-minded developers. I hope that through this post I was able to convey my approach when it comes to designing AI APIs, as well as served as an inspiration for somebody trying to work on a similar project in the future.
 
+### Disclaimer:
+
+This project has been made as a part of Creative Media and Game Technologies program at Breda University of Applied Sciences as a part of the second year of Games Programming Discipline.
+
+<img src= "/Images/logo buas.jpg"/>
+
+```
+#BUas #BUasGames #C++ #GameAI
+```
