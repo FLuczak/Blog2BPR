@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Hi, my name is Franciszek Łuczak and I am a second-year student at Breda University of Applied Sciences in the Creative Media and Game Technology program in a game programming major. I am mostly interested in Game AI and gameplay programming.
