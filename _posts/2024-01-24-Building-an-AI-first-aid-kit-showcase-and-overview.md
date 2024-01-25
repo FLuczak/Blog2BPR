@@ -5,6 +5,9 @@
 
 For the last eight weeks, I have been working on a research project at Breda University of Applied Sciences regarding my favorite subject in game development- game AI. For years as a hobbyist game programmer, I used multiple AI solutions and toolkits, including the ones built into commercial game engines, popular plugins, and in-house solutions, I also experimented with different behavior selection structures: Behavior Trees, Finite State Machines, Utility AI, as well as spent a considerable amount of time researching Goal Oriented Action Planners and Hierarchical task networks. Last year at the university, I mostly worked on games in custom engines or made from scratch in C++. At this time, I couldn’t find a premade solution that would be simple to use and easy to integrate into a project. I was looking for a library that would give me flexibility, as well as the tools for debugging or editing the previously created behavioral structures. Having a need for such a tool, as well as having experience with the topic from a user's perspective, I decided to create a library that would solve the problems I had. I present to you my Finite State Machine and Behavior tree library with debugging and editor toolkit. My main goal with this blog post is to showcase my approach to creating AI APIs architecture and show my implementation of it. This text is mostly intended for people who are at least familiar with the basic premise of Behavior Selection structures and basic theory behind them.
 
+![](/Images/RTS%20demo.gif)
+A simple RTS demo created using the library and a custom engine provided by BUAS to showcase the possibilities of the library.
+
 ## The features:
 ### Blackboards
 
@@ -341,7 +344,9 @@ In conclusion, I believe my tool solves most of the problems I faced during the 
 
 This project has been made as a part of Creative Media and Game Technologies program at Breda University of Applied Sciences as a part of the second year of Games Programming Discipline.
 
+<div style = "padding : 50px">
 <img src= "/Images/logo buas.jpg"/>
+</div>
 
 ```
 #BUas #BUasGames #C++ #GameAI
