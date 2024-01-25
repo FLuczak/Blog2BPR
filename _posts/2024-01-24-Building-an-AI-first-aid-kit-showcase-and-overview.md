@@ -39,7 +39,7 @@ std::string* name = blackboard.TryGet<std::string>("Name");
 Apart from that the user can check if an element with a given key exists if necessary:
 
 ```cpp
-if(blackboard.HasKey("Name"))return;
+if(!blackboard.HasKey<std::string>("Name"))return;
 ```
 
 ### Finite State Machines
