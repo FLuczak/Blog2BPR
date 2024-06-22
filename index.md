@@ -42,7 +42,11 @@
 
 <h1 style = "text-align: center"> About me </h1>
 
-Hi, my name is Franciszek Łuczak and I am a second-year student at Breda University of Applied Sciences in the Creative Media and Game Technology program in a game programming major. I am mostly interested in Game AI and gameplay programming.
+<p style= "text-align:center">
+I am a game programmer, as well as a student at Breda University Of Applied Sciences on Creative Media and Game Technologies programme. My main skillset revolves around AI and gameplay programming, yet I have extensive experience with tool development as well. I am proficient in C++ and C# and created multiple game projects (including commercial releases) in both Unity and Unreal Engine, I also have experience with working on custom engines and using them to make games. 
+Currently interested in C++ game programming roles, especially focused on AI/Gameplay programming, as well as positions in Unity projects.
+</p>
+
 </div>
 
 <div>
