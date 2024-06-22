@@ -99,17 +99,18 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
 <br/>
  <div class="container-wrapper">
         <div class="container">
-            <a href="https://www.example.com" target="_blank">
-                <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+            <a href="https://buas.itch.io/owlet" target="_blank">
+                <img src="Images/Owlet.png" alt="Placeholder Image" />
             </a>
             <div class="description">
                 <h2>Owlet</h2>
                 <i class="icon-cplusplus"></i> 
-                This is a description of the image and the link it leads to.
+                A game made for a project for Breda University Of Applied Sciences. The game was created using pepi engine (a custom engine described below). It is an RTS game made in a team of 14 people (3 artists, 3 designers, 8 programmers). My main role was PR lead, yet I was also working as a gameplay/AI programmer ensuring good communication between disciplines, as well as turning the ideas of the designers into feasible and scalable features.
             </div>
         </div>
 </div>
 
+<hr/>
 <h1 style = "text-align: center">Tools</h1>
 
  <div class="container-wrapper">
