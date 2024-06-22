@@ -43,6 +43,7 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
 </div>
 
 <div>
+<br/>
 <h1 style = "text-align: center"> Projects Completed </h1>
 
 <h1 style = "text-align: center">Games</h1>
@@ -50,7 +51,7 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
  <div class="container-wrapper">
         <div class="container">
             <a href="https://store.steampowered.com/app/2658510/Animal_Shelter_2/" target="_blank">
-                <img src="Images/animal 2.png" alt="Placeholder Image"class="avatar" />
+                <img src="Images/animal 2.png" alt="Placeholder Image"class="avatar"/>
             </a>
             <div class="description">
                 <h2>Animal Shelter Simulator 2</h2>
@@ -106,17 +107,17 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
                 <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
             </a>
             <div class="description">
-                <h2>RTS engine</h2>
-                This is a description of the image and the link it leads to.
+                <h2>pepi engine</h2>
+                This engine was created for a project at Breda University Of Applied Sciences,it was created to facilitate development of RTS games. The tools I was responsible for were: AI editor for Finite State Machines and Behavior Trees, Animation Controllers, as well as grid-based navigation. I was also responsible for the CI/CD and QA pipelines of the project using github actions.
             </div>
         </div>
         <div class="container">
-            <a href="https://www.example.com" target="_blank">
+            <a href="https://github.com/FLuczak/Franco-engine" target="_blank">
                 <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
             </a>
             <div class="description">
                 <h2>Franco engine</h2>
-                This is a description of the image and the link it leads to.
+                A passion project created in my free time. The engine is quite universal, yet its main benchmark and target game genre is bullet hell, top-down roguelikes. For this project I created: Navmesh navigation, AI structures with visual editor, performant physics system, Entity and Component Serialization, Asset explorer.
             </div>
         </div>
     </div>
