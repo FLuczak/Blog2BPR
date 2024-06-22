@@ -100,7 +100,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
  <div class="container-wrapper">
         <div class="container">
             <a href="https://buas.itch.io/owlet" target="_blank">
-                <img src="Images/Owlet.png" alt="Placeholder Image" />
+                <img src="Images/owlet.png" alt="Placeholder Image" />
             </a>
             <div class="description">
                 <h2>Owlet</h2>
