@@ -105,6 +105,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
             <div class="description">
                 <h2>Owlet</h2>
                 <i class="icon-cplusplus"></i> 
+                <img src = "Images/cpp.svg" alt="C++" style = "width:32px"/>
+                        <br/>
                 A game made for a project for Breda University Of Applied Sciences. The game was created using pepi engine (a custom engine described below). It is an RTS game made in a team of 14 people (3 artists, 3 designers, 8 programmers). My main role was PR lead, yet I was also working as a gameplay/AI programmer ensuring good communication between disciplines, as well as turning the ideas of the designers into feasible and scalable features.
             </div>
         </div>
@@ -116,19 +118,23 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
  <div class="container-wrapper">
         <div class="container">
             <a href="https://www.example.com" target="_blank">
-                <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="Avatar"/>
             </a>
-            <div class="description">
+  <div class="description">
                 <h2>pepi engine</h2>
+                        <img src = "Images/cpp.svg" alt="C++" style = "width:32px"/>
+                        <br/>
                 This engine was created for a project at Breda University Of Applied Sciences,it was created to facilitate development of RTS games. The tools I was responsible for were: AI editor for Finite State Machines and Behavior Trees, Animation Controllers, as well as grid-based navigation. I was also responsible for the CI/CD and QA pipelines of the project using github actions.
             </div>
         </div>
         <div class="container">
             <a href="https://github.com/FLuczak/Franco-engine" target="_blank">
-                <img src="https://via.placeholder.com/150" alt="Placeholder Image" />
+                <img src="https://via.placeholder.com/150" alt="Placeholder Image" class="Avatar"/>
             </a>
             <div class="description">
                 <h2>Franco engine</h2>
+                                        <img src = "Images/cpp.svg" alt="C++" style = "width:32px"/>
+                        <br/>
                 A passion project created in my free time. The engine is quite universal, yet its main benchmark and target game genre is bullet hell, top-down roguelikes. For this project I created: Navmesh navigation, AI structures with visual editor, performant physics system, Entity and Component Serialization, Asset explorer.
             </div>
         </div>
