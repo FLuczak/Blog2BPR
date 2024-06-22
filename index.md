@@ -17,6 +17,8 @@
             flex: 1;
             margin: 1px;
             padding: 10px;
+            align-items:center;
+            justify-content: center;
         }  .container:not(:last-child) {
             border-right: 1px solid #ccc;
         }
@@ -52,12 +54,14 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
  <div class="container-wrapper">
         <div class="container">
             <a href="https://store.steampowered.com/app/2658510/Animal_Shelter_2/" target="_blank">
-                <img src="Images/animal 2.png" alt="Placeholder Image" class="avatar"/>
+                <img src="Images/Animal2.png" alt="Placeholder Image" class="avatar"/>
             </a>
             <div class="description">
                 <h2>Animal Shelter Simulator 2</h2>
-                                <i class="fa-brands fa-unity" style = "font-size: 32px"></i>
-                                <br/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-unity" viewBox="0 0 16 16">
+  <path d="M15 11.2V3.733L8.61 0v2.867l2.503 1.466c.099.067.099.2 0 .234L8.148 6.3c-.099.067-.197.033-.263 0L4.92 4.567c-.099-.034-.099-.2 0-.234l2.504-1.466V0L1 3.733V11.2v-.033.033l2.438-1.433V6.833c0-.1.131-.166.197-.133L6.6 8.433c.099.067.132.134.132.234v3.466c0 .1-.132.167-.198.134L4.031 10.8l-2.438 1.433L7.983 16l6.391-3.733-2.438-1.434L9.434 12.3c-.099.067-.198 0-.198-.133V8.7c0-.1.066-.2.132-.233l2.965-1.734c.099-.066.197 0 .197.134V9.8z"/>
+</svg>
+<br/>
                 A game I developed while working for Games Incubator. The game was created in unity and C#. My main responsibilities were: maintaining existing gameplay/AI features, as well as creating tools that allowed other people from the team to work more efficiently on level design and adding content to the game.
             </div>
         </div>
@@ -67,7 +71,9 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
             </a>
             <div class="description">
                 <h2>Animal Shelter Simulator</h2>
-                            <i class="fa-brands fa-unity" style = "font-size: 32px"></i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-unity" viewBox="0 0 16 16">
+  <path d="M15 11.2V3.733L8.61 0v2.867l2.503 1.466c.099.067.099.2 0 .234L8.148 6.3c-.099.067-.197.033-.263 0L4.92 4.567c-.099-.034-.099-.2 0-.234l2.504-1.466V0L1 3.733V11.2v-.033.033l2.438-1.433V6.833c0-.1.131-.166.197-.133L6.6 8.433c.099.067.132.134.132.234v3.466c0 .1-.132.167-.198.134L4.031 10.8l-2.438 1.433L7.983 16l6.391-3.733-2.438-1.434L9.434 12.3c-.099.067-.198 0-.198-.133V8.7c0-.1.066-.2.132-.233l2.965-1.734c.099-.066.197 0 .197.134V9.8z"/>
+</svg>
                                 <br/>
                 A game I developed while working for Games Incubator. The game was created in unity and C#. My main responsibilities were mainly working on AI functionalities, as well as maintaining gameplay features of the game. After the release I was responsible for live-ops of the game, mainly fixing reported bugs, as well as working on additional content and features post-release.
             </div>
