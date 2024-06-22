@@ -51,7 +51,7 @@ Hi, my name is Franciszek Łuczak and I am a second-year student at Breda Univer
  <div class="container-wrapper">
         <div class="container">
             <a href="https://store.steampowered.com/app/2658510/Animal_Shelter_2/" target="_blank">
-                <img src="Images/animal 2.png" alt="Placeholder Image"class="avatar"/>
+                <img src="Images/animal 2.png" alt="Placeholder Image" class="avatar"/>
             </a>
             <div class="description">
                 <h2>Animal Shelter Simulator 2</h2>
