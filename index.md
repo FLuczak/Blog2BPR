@@ -22,6 +22,7 @@
             margin: 1px;
             padding: 20px;
             align-items: center;
+            align-content: center;
             align-content:flex-start;
             justify-content: flex-start; /* Align 
             content at the top */
@@ -69,9 +70,11 @@
     .container-wrapper {
         flex-direction: column; /* Stack containers vertically */
     }
+    .container{
+        border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+    }
     .container:not(:last-child) {
         border-right: none; /* Remove the right border */
-        border-bottom: 1px solid #ccc; /* Add bottom border for separation */
     }
 }
     </style>
@@ -91,7 +94,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
 
 <div>
 <br/>
-<h1 style = "text-align: center"> Projects Completed </h1>
+<h1 style = "text-align: center"> Group projects Completed </h1>
 
 <h1 style = "text-align: center">Games</h1>
 
@@ -208,6 +211,56 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
     </div>
 </div>
 
+<div class="container-wrapper">
+    <!-- Container 1 -->
+    <div class="container">
+        <a href="https://play.google.com/store/apps/details?id=com.FroccoGames.FallDude&hl=pl&gl=US" target="_blank">
+            <img class="avatar" src="Images/Fall Dude.png" alt="Placeholder Image" />
+        </a>
+        <div class="description">
+            <h2>Fall dude</h2>
+            <br />
+            <img src="Images/unity.png" alt="C++" style="width:32px" />
+            <br />
+            September 2022 - November 2022
+            <br/>
+            Arcade mobile game / Unity engine 
+            <br /><br />
+            Responsibilities:
+            <ul>
+               <li>Designing the game and its architecture</li>
+                <li>Adding gameplay mechanics</li>
+                <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+            </ul>
+            <br/>
+            <button class = "pretty-button"> Details</button>
+        </div>
+    </div>
+    <div class="container">
+        <a href="https://play.google.com/store/apps/details?id=com.froccoGames.BallProject&hl=pl&gl=US" target="_blank">
+            <img class="avatar" src="Images/Boing boing ball.png" alt="Placeholder Image" />
+        </a>
+        <div class="description">
+            <h2>Boing boing ball</h2>
+            <br />
+            <img src="Images/unity.png" alt="C++" style="width:32px" />
+            <br />
+            January 2022 - April 2022
+            <br/>
+            Arcade mobile game / Unity engine 
+            <br /><br />
+            Responsibilities:
+            <ul>
+             <li>Designing the game and its architecture</li>
+                <li>Adding gameplay mechanics</li>
+                <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+            </ul>
+            <br/>
+            <button class = "pretty-button"> Details</button>
+        </div>
+    </div>
+</div>
+
 <hr/>
 <h1 style = "text-align: center">Tools</h1>
 <div class="container-wrapper">
@@ -265,6 +318,4 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         </div>
     </div>
 </div>
-
-
 </div>
