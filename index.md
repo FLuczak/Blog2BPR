@@ -232,8 +232,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Implementation and maintenance of gameplay mechanics based on the design team's input</li>
                 <li>Implementation of gameplay features in C++ that technical designers and other programmers could use in blueprints for rapid prototyping</li>
             </ul>
+            <button class= "pretty-button"> Details</button>
         </div>
-        <button class= "pretty-button"> Details</button>
     </div>
     <!-- Container 2 -->
     <div class="container">
@@ -256,8 +256,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Implementing a tool for the QA team for easier testing</li>
                 <li>Maintenance of the QA pipeline including live automatic bug reporting and logging</li>
             </ul>
+                    <button class= "pretty-button"> Details</button>
         </div>
-        <button class= "pretty-button"> Details</button>
     </div>
 </div>
 
