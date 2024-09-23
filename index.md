@@ -111,6 +111,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Maintenance of the project's CI/CD pipelines and QA pipeline.</li>
                 <li>Management of the programming team, communication with the producer, and distributing tasks within the programming team.</li>
             </ul>
+            <br/>
             <button class = "pretty-button"> Details</button>
         </div>
     </div>
@@ -134,6 +135,9 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Maintenance of the codebase and bug fixing.</li>
                 <li>Tools programming for the Level Design, QA, and Design teams to facilitate their workflows.</li>
                 <li>Maintaining documentation of the codebase.</li>
+                <br>
+                <br>                
+                <br>
             </ul>
         </div>
         <button class= "pretty-button"> Details</button>
@@ -186,6 +190,9 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Design of game's architecture in the early stages of development</li>
                 <li>Implementation and maintenance of gameplay mechanics based on the design team's input</li>
                 <li>Implementation of gameplay features in C++ that technical designers and other programmers could use in blueprints for rapid prototyping</li>
+                <br>
+                <br>
+
             </ul>
         </div>
         <button class= "pretty-button"> Details</button>
