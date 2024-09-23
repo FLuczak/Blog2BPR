@@ -215,7 +215,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
     <!-- Container 1 -->
     <div class="container">
         <a href="https://play.google.com/store/apps/details?id=com.FroccoGames.FallDude&hl=pl&gl=US" target="_blank">
-            <img class="avatar" src="Images/Fall Dude.png" alt="Placeholder Image" />
+            <img class="avatar" src="Images/Fall dude.png" alt="Placeholder Image" />
         </a>
         <div class="description">
             <h2>Fall dude</h2>
