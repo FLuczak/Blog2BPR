@@ -26,7 +26,7 @@
             flex-direction: column;
             flex: 1;
             margin: 1px;
-            padding: 20px;
+            padding: 5px;
             align-items: center;
             align-content: center;
             align-content:center;
