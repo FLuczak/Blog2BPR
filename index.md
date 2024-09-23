@@ -9,6 +9,7 @@
         width: 100%;
         height: 100%;
         justify-content: start;
+        align-content:center;
         align-items: flex-start; /* Align items from the top */
         }
         .container {
@@ -18,6 +19,7 @@
             margin: 1px;
             padding: 10px;
             align-items: center;
+            align-content:flex-start;
             justify-content: flex-start; /* Align content at the top */
         }
         .container:not(:last-child) {
@@ -56,6 +58,16 @@
     background: linear-gradient(135deg, #326da8, #2d6a9f); /* Darker blues for active state */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Smaller shadow on click */
     transform: translateY(1px); /* Button press effect */
+}
+/* Media query for smaller screens (e.g., tablets and phones) */
+@media (max-width: 768px) {
+    .container-wrapper {
+        flex-direction: column; /* Stack containers vertically */
+    }
+    .container:not(:last-child) {
+        border-right: none; /* Remove the right border */
+        border-bottom: 1px solid #ccc; /* Add bottom border for separation */
+    }
 }
     </style>
         <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
