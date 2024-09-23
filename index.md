@@ -4,6 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Image Links with Descriptions</title>
     <style>
+        .wrapper{
+            width:90;
+        }
         .container-wrapper {
         display: flex;
         width: 100%;
@@ -17,10 +20,12 @@
             flex-direction: column;
             flex: 1;
             margin: 1px;
-            padding: 10px;
+            padding: 20px;
             align-items: center;
             align-content:flex-start;
-            justify-content: flex-start; /* Align content at the top */
+            justify-content: flex-start; /* Align 
+            content at the top */
+            align-self: stretch;
         }
         .container:not(:last-child) {
             border-right: 1px solid #ccc;
@@ -101,6 +106,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
             <br />
             <img src="Images/cpp.svg" alt="C++" style="width:32px" />
             <br />
+            March 2024 - June 2024
+            <br/>
             RTS game / Custom engine (C++) / AI and tools programmer
             <br /><br />
             Responsibilities:
@@ -115,6 +122,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
             <button class = "pretty-button"> Details</button>
         </div>
     </div>
+    <hr/>
     <!-- Container 2 -->
     <div class="container">
         <a href="https://store.steampowered.com/app/2658510/Animal_Shelter_2/" target="_blank">
@@ -149,6 +157,33 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
 <div class="container-wrapper">
     <!-- Container 1 -->
     <div class="container">
+        <a href="https://vittoriobellinello.itch.io/team-moth" target="_blank">
+            <img src="Images/Smash balls.png" alt="Placeholder Image" class="avatar" />
+        </a>
+        <div class="description">
+            <h2>Smash Balls</h2>
+            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                    d="M12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0m0 23.52A11.52 11.52 0 1 1 23.52 12A11.52 11.52 0 0 1 12 23.52m7.13-9.791c-.206.997-1.126 3.557-4.06 4.942l-1.179-1.325l-1.988 2a7.34 7.34 0 0 1-5.804-2.978a3 3 0 0 0 .65.123c.326.006.678-.114.678-.66v-5.394a.89.89 0 0 0-1.116-.89c-.92.212-1.656 2.509-1.656 2.509a7.3 7.3 0 0 1 2.528-5.597a7.4 7.4 0 0 1 3.73-1.721c-1.006.573-1.57 1.507-1.57 2.29c0 1.262.76 1.109.984.923v7.28a1.2 1.2 0 0 0 .148.256a1.08 1.08 0 0 0 .88.445c.76 0 1.747-.868 1.747-.868V9.172c0-.6-.452-1.324-.905-1.572c0 0 .838-.149 1.484.346a6 6 0 0 1 .387-.425c1.508-1.48 2.929-1.902 4.112-2.112c0 0-2.151 1.69-2.151 3.96c0 1.687.043 5.801.043 5.801c.799.771 1.986-.342 3.059-1.441Z"/>
+            </svg>
+            <br />
+            April 2023-June 2023
+            <br/>
+            Arcade co-op game / Unreal Engine (C++ and Blueprints) / Gameplay programmer
+            <br /><br />
+            Responsibilities:
+            <ul>
+                <li>Design of game's architecture in the early stages of development</li>
+                <li>Implementation and maintenance of gameplay mechanics based on the design team's input</li>
+                <li>Implementation of gameplay features in C++ that technical designers and other programmers could use in blueprints for rapid prototyping</li>
+                <br>
+                <br>
+            </ul>
+        </div>
+        <button class= "pretty-button"> Details</button>
+    </div>
+    <!-- Container 2 -->
+    <div class="container">
         <a href="https://store.steampowered.com/app/1239320/Animal_Shelter/" target="_blank">
             <img src="Images/Animal 1.png" alt="Placeholder Image" class="avatar" />
         </a>
@@ -171,60 +206,64 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         </div>
         <button class= "pretty-button"> Details</button>
     </div>
-    <!-- Container 2 -->
-    <div class="container">
-        <a href="https://vittoriobellinello.itch.io/team-moth" target="_blank">
-            <img src="Images/Smash balls.png" alt="Placeholder Image" class="avatar" />
-        </a>
-        <div class="description">
-            <h2>Smash Balls</h2>
-            <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 24 24">
-                <path fill="currentColor"
-                    d="M12 0a12 12 0 1 0 12 12A12 12 0 0 0 12 0m0 23.52A11.52 11.52 0 1 1 23.52 12A11.52 11.52 0 0 1 12 23.52m7.13-9.791c-.206.997-1.126 3.557-4.06 4.942l-1.179-1.325l-1.988 2a7.34 7.34 0 0 1-5.804-2.978a3 3 0 0 0 .65.123c.326.006.678-.114.678-.66v-5.394a.89.89 0 0 0-1.116-.89c-.92.212-1.656 2.509-1.656 2.509a7.3 7.3 0 0 1 2.528-5.597a7.4 7.4 0 0 1 3.73-1.721c-1.006.573-1.57 1.507-1.57 2.29c0 1.262.76 1.109.984.923v7.28a1.2 1.2 0 0 0 .148.256a1.08 1.08 0 0 0 .88.445c.76 0 1.747-.868 1.747-.868V9.172c0-.6-.452-1.324-.905-1.572c0 0 .838-.149 1.484.346a6 6 0 0 1 .387-.425c1.508-1.48 2.929-1.902 4.112-2.112c0 0-2.151 1.69-2.151 3.96c0 1.687.043 5.801.043 5.801c.799.771 1.986-.342 3.059-1.441Z"/>
-            </svg>
-            <br />
-            Arcade co-op game / Unreal Engine (C++ and Blueprints) / Gameplay programmer
-            <br /><br />
-            Responsibilities:
-            <ul>
-                <li>Design of game's architecture in the early stages of development</li>
-                <li>Implementation and maintenance of gameplay mechanics based on the design team's input</li>
-                <li>Implementation of gameplay features in C++ that technical designers and other programmers could use in blueprints for rapid prototyping</li>
-                <br>
-                <br>
-
-            </ul>
-        </div>
-        <button class= "pretty-button"> Details</button>
-    </div>
 </div>
 
 <hr/>
 <h1 style = "text-align: center">Tools</h1>
-
- <div class="container-wrapper">
-        <div class="container">
-            <a href="https://www.example.com" target="_blank">
-                <img src="Images/pepi_engine_logo_small.png" alt="Placeholder Image" class="avatar"/>
-            </a>
-  <div class="description">
-                <h2>pepi engine</h2>
-                        <img src = "Images/cpp.svg" alt="C++" style = "width:32px"/>
-                        <br/>
-                This engine was created for a project at Breda University Of Applied Sciences,it was created to facilitate development of RTS games. The tools I was responsible for were: AI editor for Finite State Machines and Behavior Trees, Animation Controllers, as well as grid-based navigation. I was also responsible for the CI/CD and QA pipelines of the project using github actions.
-            </div>
+<div class="container-wrapper">
+    <!-- Container 1: Pepi Engine -->
+    <div class="container">
+        <a href="https://www.example.com" target="_blank">
+            <img src="Images/pepi_engine_logo_small.png" alt="Pepi Engine Logo" class="avatar" />
+        </a>
+        <div class="description">
+            <h2>Pepi Engine</h2>
+            <img src="Images/cpp.svg" alt="C++" style="width:32px;" />
+            <br />
+            This engine was created for a project at Breda University of Applied Sciences to facilitate the development of RTS games. My responsibilities included:
+            <ul>
+                <li>AI editor for Finite State Machines and Behavior Trees.</li>
+                <li>Animation Controllers and grid-based navigation.</li>
+                <li>CI/CD and QA pipelines using GitHub Actions.</li>
+            </ul>
         </div>
-        <div class="container">
-            <a href="https://github.com/FLuczak/Franco-engine" target="_blank">
-                <img src="Images/Franco.png" alt="Placeholder Image" class="avatar"/>
-            </a>
-            <div class="description">
-                <h2>Franco engine</h2>
-                                        <img src = "Images/cpp.svg" alt="C++" style = "width:32px"/>
-                        <br/>
-                A passion project created in my free time. The engine is quite universal, yet its main benchmark and target game genre is bullet hell, top-down roguelikes. For this project I created: Navmesh navigation, AI structures with visual editor, performant physics system, Entity and Component Serialization, Asset explorer.
-            </div>
+    </div>
+    <!-- Container 2: Franco Engine -->
+    <div class="container">
+        <a href="https://github.com/FLuczak/Franco-engine" target="_blank">
+            <img src="Images/Franco.png" alt="Franco Engine Logo" class="avatar" />
+        </a>
+        <div class="description">
+            <h2>Franco Engine</h2>
+            <img src="Images/cpp.svg" alt="C++" style="width:32px;" />
+            <br />
+            A passion project created in my free time. This engine is universal but optimized for bullet hell and top-down roguelikes. Key features I developed include:
+            <ul>
+                <li>Navmesh navigation.</li>
+                <li>AI structures with a visual editor.</li>
+                <li>Performant physics system.</li>
+                <li>Entity and component serialization.</li>
+                <li>Asset explorer.</li>
+            </ul>
         </div>
+    </div>
+    <!-- Container 3: Visual Debug Console -->
+    <div class="container">
+        <a href="https://gitlab.com/darthkornik/visual-debug-console" target="_blank">
+            <img src="Images/visualDebuggingConsole.png" alt="Visual Debug Console Logo" class="avatar" />
+        </a>
+        <div class="description">
+            <h2>Visual Debug Console</h2>
+            <img src="Images/unity.png" alt="Unity" style="width:32px;" />
+            <br />
+            An open-source project I co-created while working at a games incubator. This tool is widely used across multiple game projects for QA processes and playtesting. Its key features include:
+            <ul>
+                <li>Replacing the classic debug console with a user-friendly interface.</li>
+                <li>Programmatic buttons bound to in-game functions.</li>
+                <li>Live variable previews for enhanced debugging.</li>
+            </ul>
+        </div>
+    </div>
 </div>
 
 
