@@ -57,7 +57,7 @@
         .social-links a {
             text-decoration: none;
             color: #333;
-            font-size: 2rem;
+            font-size: 48px;
         }
         .social-links a:hover {
             color: #0077b5; /* LinkedIn color */
@@ -135,7 +135,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         <a href="https://www.linkedin.com/in/franciszek-łuczak-02b9a8207/" class="linkedin" target="_blank">
             <i class="fab fa-linkedin"></i>
         </a>
-    </div>
+</div>
 
 </div>
 
