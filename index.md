@@ -281,6 +281,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                <li>Designing the game and its architecture</li>
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+                <br/>
                 <button class = "pretty-button"> Details</button>
             </ul>
             <br/>
@@ -304,6 +305,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
              <li>Designing the game and its architecture</li>
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+                <br/>
                 <button class = "pretty-button"> Details</button>
             </ul>
             <br/>
