@@ -169,9 +169,10 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Maintenance and development of the engine's core features (ECS, serialization, in-editor tools).</li>
                 <li>Maintenance of the project's CI/CD pipelines and QA pipeline.</li>
                 <li>Management of the programming team, communication with the producer, and distributing tasks within the programming team.</li>
+                <br/>
+                <button class = "pretty-button"> Details</button>
             </ul>
             <br/>
-            <button class = "pretty-button"> Details</button>
         </div>
     </div>
     <hr/>
@@ -197,10 +198,10 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Maintaining documentation of the codebase.</li>
                 <br>
                 <br>                
-                <br>
+                <br>        
+                <button class= "pretty-button"> Details</button>
             </ul>
         </div>
-        <button class= "pretty-button"> Details</button>
     </div>
 </div>
 
@@ -280,9 +281,9 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                <li>Designing the game and its architecture</li>
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+                <button class = "pretty-button"> Details</button>
             </ul>
             <br/>
-            <button class = "pretty-button"> Details</button>
         </div>
     </div>
     <div class="container">
@@ -303,9 +304,9 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
              <li>Designing the game and its architecture</li>
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
+                <button class = "pretty-button"> Details</button>
             </ul>
             <br/>
-            <button class = "pretty-button"> Details</button>
         </div>
     </div>
 </div>
