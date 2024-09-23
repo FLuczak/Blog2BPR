@@ -7,7 +7,12 @@
         .wrapper{
             width:90%;
         }
-        ul, ol { padding:0; margin: 0 ;text-align:center;}
+        ul, ol 
+        {
+        padding:0;
+         margin: 0px ;
+         text-align:center;
+         }
         li{
             text-align:center;
         }
@@ -75,6 +80,7 @@
     font-size: 16px; /* Readable font size */
     font-weight: bold;
     cursor: pointer; /* Pointer cursor on hover */
+    margin-bottom:2%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     transition: all 0.3s ease; /* Smooth transitions */
 }
@@ -159,7 +165,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
             March 2024 - June 2024
             <br/>
             RTS game / Custom engine (C++) / AI and tools programmer
-            <br /><br />
+            <br />
             Responsibilities:
             <ul>
                 <li>Creating an AI framework with tools (visual scripting) for the designers to use.</li>
@@ -168,9 +174,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Maintenance of the project's CI/CD pipelines and QA pipeline.</li>
                 <li>Management of the programming team, communication with the producer, and distributing tasks within the programming team.</li>
                 <br/>
-                <button class = "pretty-button"> Details</button>
             </ul>
-            <br/>
+            <button class = "pretty-button"> Details</button>
         </div>
     </div>
     <hr/>
@@ -195,10 +200,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Tools programming for the Level Design, QA, and Design teams to facilitate their workflows.</li>
                 <li>Maintaining documentation of the codebase.</li>
                 <br>
-                <br>                
-                <br>        
-                <button class= "pretty-button"> Details</button>
             </ul>
+            <button class= "pretty-button"> Details</button>
         </div>
     </div>
 </div>
@@ -227,8 +230,6 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Design of game's architecture in the early stages of development</li>
                 <li>Implementation and maintenance of gameplay mechanics based on the design team's input</li>
                 <li>Implementation of gameplay features in C++ that technical designers and other programmers could use in blueprints for rapid prototyping</li>
-                <br>
-                <br>
             </ul>
         </div>
         <button class= "pretty-button"> Details</button>
@@ -280,8 +281,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
                 <br/>
-                <button class = "pretty-button"> Details</button>
             </ul>
+                <button class = "pretty-button"> Details</button>
             <br/>
         </div>
     </div>
@@ -304,8 +305,8 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
                 <li>Adding gameplay mechanics</li>
                 <li>Integrating Google APIs to the project (admob, google play games, firebase) </li>
                 <br/>
-                <button class = "pretty-button"> Details</button>
             </ul>
+                <button class = "pretty-button"> Details</button>
             <br/>
         </div>
     </div>
