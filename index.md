@@ -80,6 +80,7 @@
     font-size: 16px; /* Readable font size */
     font-weight: bold;
     cursor: pointer; /* Pointer cursor on hover */
+    margin-top:2%;
     margin-bottom:2%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     transition: all 0.3s ease; /* Smooth transitions */
