@@ -22,6 +22,7 @@
         height: 100%;
         justify-content: start;
         align-content:center;
+        border-top: 1px solid #ccc;
         align-items: flex-start; /* Align items from the top */
         }
         .container {
@@ -206,9 +207,6 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         </div>
     </div>
 </div>
-
-<br/>
-<br/>
 <div class="container-wrapper">
     <!-- Container 1 -->
     <div class="container">
@@ -260,7 +258,6 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         </div>
     </div>
 </div>
-
 <div class="container-wrapper">
     <!-- Container 1 -->
     <div class="container">
