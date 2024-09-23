@@ -106,7 +106,14 @@
         <link src="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 
-<div style = "text-align:center;">
+<div style = "height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction:column;
+            align-content:center;
+            text-align:center;">
 
 <h1 style = "text-align: center;"> About me </h1>
 <p style= "text-align:center;">
@@ -115,7 +122,7 @@ I am a game programmer, as well as a student at Breda University Of Applied Scie
 Currently interested in C++ game programming roles, especially focused on AI/Gameplay programming, as well as positions in Unity projects.
 </p>
 
- <div class="social-links" style = "height = 100%; text-align: center;">
+ <div class="social-links" style = "height = 64px;">
         <!-- Itch.io -->
         <a href="https://kenarf.itch.io" class="itch" target="_blank">
             <i class="fab fa-itch-io"></i>
