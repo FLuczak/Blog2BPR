@@ -137,10 +137,6 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
         </a>
     </div>
 
-<div class = "personal-links"> 
-
-</div>
-
 </div>
 
 <div>
