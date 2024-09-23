@@ -9,10 +9,10 @@
         }
         ul, ol 
         {
-        padding:0;
-         margin: 0px ;
+         padding:0;
+         margin: 0;
          text-align:center;
-         }
+        }
         li{
             text-align:center;
         }
