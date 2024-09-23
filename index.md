@@ -5,7 +5,7 @@
     <title>Image Links with Descriptions</title>
     <style>
         .wrapper{
-            width:90;
+            width:90%;
         }
         .container-wrapper {
         display: flex;
