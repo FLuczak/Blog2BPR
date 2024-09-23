@@ -7,9 +7,7 @@
         .wrapper{
             width:90%;
         }
-        ul{
-            text-align:center;
-        }
+        ul, ol { padding:0; margin: 0 ;text-align:center;}
         li{
             text-align:center;
         }
