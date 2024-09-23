@@ -7,6 +7,12 @@
         .wrapper{
             width:90%;
         }
+        ul{
+            text-align:center;
+        }
+        li{
+            text-align:center;
+        }
         .container-wrapper {
         display: flex;
         width: 100%;
@@ -116,7 +122,7 @@ I am a game programmer, as well as a student at Breda University Of Applied Scie
 Currently interested in C++ game programming roles, especially focused on AI/Gameplay programming, as well as positions in Unity projects.
 </p>
 
- <div class="social-links">
+ <div class="social-links" style = "height = 100%;">
         <!-- Itch.io -->
         <a href="https://kenarf.itch.io" class="itch" target="_blank">
             <i class="fab fa-itch-io"></i>
