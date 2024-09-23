@@ -94,7 +94,7 @@ Currently interested in C++ game programming roles, especially focused on AI/Gam
 
 <div>
 <br/>
-<h1 style = "text-align: center"> Group projects Completed </h1>
+<h1 style = "text-align: center"> Projects Completed </h1>
 
 <h1 style = "text-align: center">Games</h1>
 
